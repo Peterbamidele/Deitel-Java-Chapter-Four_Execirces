@@ -4,18 +4,24 @@ public class StudentNestedIfStatement {
     /*
     * Class Student stores a student’s name and average and provides methods for
     manipulating these values. The class contains:
-    • instance variable name of type String (line 5) to store a Student ’s name
-    • instance variable average of type double (line 6) to store a Student ’s average in
+    • instance variable name of type String to store a Student ’s name
+    • instance variable average of type double to store a Student ’s average in
     a course
-    • a constructor (lines 9–18) that initializes the name and average —in Section 5.9,
-    you’ll learn how to express lines 15–16 and 37–38 more concisely with logical
+    • a constructor that initializes the name and average —in Section 5.9,
+    you’ll learn how to express more concisely with logical
     operators that can test multiple conditions
-    • methods setName and getName (lines 21–30) to set and get the Student ’s name
-    • methods setAverage and getAverage (lines 33–46) to set and get the Student ’s
+    • methods setName and getName to set and get the Student ’s name
+    • methods setAverage and getAverage to set and get the Student ’s
     average
     •
     method getLetterGrade (lines 49–65), which uses nested if ... else statements to
-    determine the Student ’s letter grade based on the Student ’s average*/
+    determine the Student ’s letter grade based on the Student ’s average
+        * The constructor and method setAverage each use nested if statements
+        to validate the value used to set the average —these statements ensure that the
+        value is greater than 0.0 and less than or equal to 100.0 ; otherwise, average ’s value is left
+    unchanged. Each if statement contains a simple condition. If the condition is true,
+    only then will the condition be tested, and only if the conditions
+    are true will the statement in execute.*/
   private String StudentName;
   private  double average;
 

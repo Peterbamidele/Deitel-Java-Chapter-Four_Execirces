@@ -1,4 +1,4 @@
-public class MultiplesOf2WithAnInFiniteLoop_4_23 {
+public class MultiplesOf2WithAnInFiniteLoop_4_33 {
         /*
         * 4.33 (Multiples of 2 with an Infinite Loop) Write an application that keeps displaying in the
         command window the multiples of the integer 2—namely, 2, 4, 8, 16, 32, 64, and so on. Your loop

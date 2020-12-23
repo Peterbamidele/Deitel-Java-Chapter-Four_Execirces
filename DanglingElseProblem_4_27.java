@@ -24,9 +24,26 @@ System.out.println("#####");
 System.out.println("$$$$$");
 }*/
     public static void main(String[] args) {
-        int grade = 60;
-        if (grade <= 100)
-            System.out.println(grade >= 60 ? "Passed" : "Failed");
+
+        int x = 9,y = 11;
+        if (x < 10)
+            if (y > 10)
+                System.out.println("*****");
+            else
+                System.out.println("#####");
+                 System.out.println("$$$$$");
+
+        int a = 11,b = 9;
+        if (a < 10) {
+            if (b > 10)
+                System.out.println("*****");
+        }
+
+        {
+            System.out.println("#####");
+            System.out.println("$$$$$");
+        }
+
 
     }
 }

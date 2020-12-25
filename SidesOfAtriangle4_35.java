@@ -7,6 +7,13 @@ public class SidesOfAtriangle4_35 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+         int side1;
+         int side2;
+         int side3;
+
+        System.out.println("Enter the value for the first value for the first Triangle: ");
+
+
 
 
 

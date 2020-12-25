@@ -33,10 +33,7 @@ public class EnforcingPrivacyWithCryptography4_38 {
         digit3 = (number % 100 / 10 + 7) % 10;
         digit4 = (number % 10 + 7) % 10;
 
-//        digit1 = (number / 1000 + 3) % 10;
-//        digit2 = (number % 1000 / 100 + 3) % 10;
-//        digit3 = (number % 100 / 10 + 3) % 10;
-//        digit4 = (number % 10 + 3) % 10;
+
 
         encryptedMessage = digit1 * 10 + digit2 + digit3 * 1000 + digit4 * 100;
         System.out.printf(" Encrypted number is : %d\n", encryptedMessage);
@@ -59,10 +56,15 @@ public class EnforcingPrivacyWithCryptography4_38 {
         System.out.print("Enter a Encrypted Number: ");
         enCrypte = input.nextInt();
 
-//        reverseDigit1 = (enCrypte / 1000 + 7) % 10;
-//        reverseDigit2 = (enCrypte % 1000 / 100 + 7) % 10;
-//        reverseDigit3 = (enCrypte % 100 / 10 + 7) % 10;
-//        reverseDigit4 = (enCrypte % 10 + 7) % 10;
+//        reverseDigit1 = (enCrypte / 1000 - 7) % 10;
+//        reverseDigit2 = (enCrypte % 1000 / 100 - 7) % 10;
+//        reverseDigit3 = (enCrypte % 100 / 10 - 7) % 10;
+//        reverseDigit4 = (enCrypte % 10 - 7) % 10;
+
+//        reverseDigit1 = (enCrypte % 1000 - 7) / 10;
+//        reverseDigit2 = (enCrypte / 1000 % 100 - 7) / 10;
+//        reverseDigit3 = (enCrypte / 100 % 10 - 7) - 10;
+//        reverseDigit4 = (enCrypte / 10 - 7) / 10;
 
         reverseDigit1 = (enCrypte / 1000 + 3) % 10;
         reverseDigit2 = (enCrypte % 1000 / 100 + 3) % 10;
